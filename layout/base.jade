@@ -23,6 +23,7 @@ html(lang='#{config.language}')
     meta(content='telephone=no', name='format-detection')
     meta(name='description', content=config.description)
     block title
+    link(rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&subset=latin,latin-ext')
     link(rel='stylesheet', type='text/css', href=url_for(theme.css) + '/normalize.css' + '?v=' + theme.version)
     link(rel='stylesheet', type='text/css', href=url_for(theme.css) + '/pure-min.css' + '?v=' + theme.version)
     link(rel='stylesheet', type='text/css', href=url_for(theme.css) + '/grids-responsive-min.css' + '?v=' + theme.version)
